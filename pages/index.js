@@ -1,7 +1,24 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
+import { sample } from "lodash";
 
 export default function Home() {
+  const negative = [
+    "No",
+    "Nope",
+    "Nopes",
+    "Not yet",
+    "Negative",
+    "He hasn't",
+    "Absolutely not",
+    "Nay",
+    "Nae",
+    "Not at all",
+    "Of course not",
+    "No siree",
+  ];
+  const positive = ["Yes"];
+
   return (
     <div className={styles.container}>
       <Head>
@@ -22,7 +39,7 @@ export default function Home() {
         ></script>
       </Head>
       <main className={styles.main}>
-        <h1 className={styles.title}>Nope.</h1>
+        <h1 className={styles.title}>{sample(negative)}.</h1>
         <img
           className={styles.lelijkekop}
           src="/lelijkhoofd.png"
