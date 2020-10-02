@@ -43,7 +43,6 @@ export default function Home() {
         <h1 className={styles.title}>{sample(negative)}.</h1>
         <img
           className={styles.lelijkekop}
-          width="90%"
           src="/lelijkhoofd.png"
           alt="Mannekes, wat ne lelijke kop."
         />
