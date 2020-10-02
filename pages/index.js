@@ -2,7 +2,7 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import { sample } from "lodash";
 
-export default function Home() {
+Home.getInitialProps = async (ctx) => {
   const negative = [
     "No",
     "Nope",
@@ -15,7 +15,10 @@ export default function Home() {
     "No siree",
   ];
   const positive = ["Yes"];
+  return { answer: sample(negative) };
+};
 
+export default function Home({ answer }) {
   return (
     <div className={styles.container}>
       <Head>
@@ -40,7 +43,7 @@ export default function Home() {
         ></script>
       </Head>
       <main className={styles.main}>
-        <h1 className={styles.title}>{sample(negative)}.</h1>
+        <h1 className={styles.title}>{answer}.</h1>
         <img
           className={styles.lelijkekop}
           src="/lelijkhoofd.png"
