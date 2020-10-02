@@ -55,7 +55,7 @@ export default function Home({ answer }) {
         <a href="https://broddin.be" target="_blank" rel="noopener noreferrer">
           😘
         </a>
-      </footer>{" "}
+      </footer>
     </div>
   );
 }
