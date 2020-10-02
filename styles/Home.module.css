@@ -121,3 +121,7 @@
     flex-direction: column;
   }
 }
+
+.lelijkekop {
+  max-width: 100%;
+}

@@ -6,7 +6,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Has Trump died?</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
         <meta property="og:title" content="Has Trump died?" />
         <meta
           property="og:description"
@@ -15,16 +15,19 @@ export default function Home() {
         <meta property="og:url" content="https://hastrumpdied.com" />
         <meta property="og:image" content="https://hastrumpdied.com/og.jpg" />
       </Head>
-
       <main className={styles.main}>
         <h1 className={styles.title}>Nope.</h1>
+        <img
+          className={styles.lelijkekop}
+          src="/lelijkhoofd.png"
+          alt="Mannekes, wat ne lelijke kop."
+        />
       </main>
-
       <footer className={styles.footer}>
         <a href="https://broddin.be" target="_blank" rel="noopener noreferrer">
           😘
         </a>
-      </footer>
+      </footer>{" "}
     </div>
   );
 }
