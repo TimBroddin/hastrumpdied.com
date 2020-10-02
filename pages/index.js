@@ -10,11 +10,8 @@ export default function Home() {
     "Not yet",
     "Negative",
     "He hasn't",
-    "Absolutely not",
     "Nay",
     "Nae",
-    "Not at all",
-    "Of course not",
     "No siree",
   ];
   const positive = ["Yes"];
