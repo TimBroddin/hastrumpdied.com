@@ -45,7 +45,8 @@ export default function Home({ answer }) {
       <main className={styles.main}>
         <h1 className={styles.title}>{answer}.</h1>
         <img
-          className={styles.lelijkekop}
+          width="300"
+          height="300"
           src="/lelijkhoofd.png"
           alt="Mannekes, wat ne lelijke kop."
         />
