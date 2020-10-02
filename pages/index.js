@@ -34,7 +34,10 @@ export default function Home({ answer }) {
           content="Informative website for people wondering if POTUS Donald Trump has died."
         />
         <meta property="og:url" content="https://hastrumpdied.com" />
-        <meta property="og:image" content="https://hastrumpdied.com/og.jpg?" />
+        <meta
+          property="og:image"
+          content="https://hastrumpdied.com/og.jpg?v2"
+        />
         <script
           async
           defer
