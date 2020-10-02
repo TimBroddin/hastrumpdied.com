@@ -14,6 +14,12 @@ export default function Home() {
         />
         <meta property="og:url" content="https://hastrumpdied.com" />
         <meta property="og:image" content="https://hastrumpdied.com/og.jpg" />
+        <script
+          async
+          defer
+          data-domain="hastrumpdied.com"
+          src="https://stats.broddin.be/js/plausible.js"
+        ></script>
       </Head>
       <main className={styles.main}>
         <h1 className={styles.title}>Nope.</h1>
