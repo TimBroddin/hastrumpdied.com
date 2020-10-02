@@ -21,6 +21,10 @@ export default function Home() {
       <Head>
         <title>Has Trump died?</title>
         <link rel="icon" href="/favicon.png" />
+        <meta
+          name="description"
+          content="Informative website for people wondering if POTUS Donald Trump has died."
+        />
         <meta property="og:title" content="Has Trump died?" />
         <meta
           property="og:description"
@@ -39,6 +43,7 @@ export default function Home() {
         <h1 className={styles.title}>{sample(negative)}.</h1>
         <img
           className={styles.lelijkekop}
+          width="90%"
           src="/lelijkhoofd.png"
           alt="Mannekes, wat ne lelijke kop."
         />
