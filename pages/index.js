@@ -53,14 +53,6 @@ export default function Home({ answer }) {
           src="/lelijkhoofd.png"
           alt="Mannekes, wat ne lelijke kop."
         />
-        <div
-          id="amzn-assoc-ad-0d91b2b9-c4c9-44b5-a978-62189d03c965"
-          style={{ marginTop: "50px" }}
-        ></div>
-        <script
-          async
-          src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=0d91b2b9-c4c9-44b5-a978-62189d03c965"
-        ></script>
       </main>
       <footer className={styles.footer}>
         <a href="https://broddin.be" target="_blank" rel="noopener noreferrer">
