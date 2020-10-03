@@ -14,6 +14,11 @@ class MyDocument extends Document {
           <Main />
           <NextScript />
         </body>
+        <script
+          data-ad-client="ca-pub-4111628699519217"
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+        ></script>
       </Html>
     );
   }
