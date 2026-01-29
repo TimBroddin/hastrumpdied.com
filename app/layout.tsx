@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Playfair_Display, Inter } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 
 const playfair = Playfair_Display({
@@ -35,11 +36,14 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${playfair.variable} ${inter.variable}`}>
       <head>
-        <script
-          defer
-          data-domain="hastrumpdied.com"
-          src="https://stats.broddin.be/js/plausible.js"
+        <Script
+          async
+          src="https://stats.broddin.be/js/pa-trh9sTvfpt8v7jlP_gEp7.js"
+          strategy="afterInteractive"
         />
+        <Script id="plausible-init" strategy="afterInteractive">
+          {`window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};plausible.init()`}
+        </Script>
         <script
           async
           data-ad-client="ca-pub-4111628699519217"
